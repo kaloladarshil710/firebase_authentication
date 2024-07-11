@@ -27,7 +27,7 @@ class VerifyOtpScreen extends StatelessWidget {
         context,
         MaterialPageRoute(builder: (context) => const HomeScreen()),
         (Route<dynamic> route) => false,
-      );
+      );  
     } catch (e) {
       // Handle error
       // ignore: use_build_context_synchronously
